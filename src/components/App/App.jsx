@@ -19,6 +19,7 @@ class App extends Component {
       this.setState({ contacts: parsedСontacts });
     }
   }
+
   componentDidUpdate(prevProps, prevState) {
     if (this.state.contacts !== prevState) {
       console.log('updated contacts');
